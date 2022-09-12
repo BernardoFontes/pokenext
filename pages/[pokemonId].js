@@ -50,7 +50,7 @@ export default function Pokemon({ pokemon }) {
             <section>Peso: {pokemon.weight}kg</section>
             <ul>
                 Tipos:
-                {tipo.map((element) => <li>{element}</li>)}
+                {tipo.map((element) => <li key={element.id}>{element}</li>)}
             </ul>
         </div>
         <Link href="/"><a className={styles.backbtn}>Voltar</a></Link>
