@@ -1,0 +1,55 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    margin-bottom: 3.5em;
+    margin-left: 38%;
+    margin-top: 2%;
+    width: 23%;
+    border-radius: 1em 2px solid #e33d33;
+    box-shadow: 5px 5px 12px;
+    background-color: #333;
+    color:white;
+
+    p {
+        background-color: #e33d33;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        border-radius: 1px solid #e33d33;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    h1 {
+        text-transform: capitalize;
+        font-size: 1.4em;
+    }
+
+    ul {
+        margin-top: 5%;
+    }
+    
+}
+
+.backbtn {
+    color: white;
+    margin-left: 47.5%;
+    font-size: 20px;
+    padding-top: 5px;
+    padding: 5px;
+    transition: 0.4s;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    background-color: red; // linha debaixo do bagui
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .backbtn:hover{
+    border-color: white; // cor da linha dbx do bagui ficar branca
+    background-color: #333;
+  }
